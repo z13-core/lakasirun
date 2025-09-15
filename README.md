@@ -51,7 +51,7 @@
 4. Laravel:
    * `cp .env.example .env`
    * edit the env based on your local configuration
-   * `composer install` jika gagal terus pakai `composer install --ignore-platform-reqs`
+   * `composer install`
    * `php artisan key:generate`
    * `php artisan migrate --path=database/migrations/tenant --seed`
    * `php artisan filament:assets`
